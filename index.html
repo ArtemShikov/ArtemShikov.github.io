@@ -3,6 +3,85 @@
     <head>
       <meta charset="utf-8">
       <title>MINE WEB PAGE</title>
+      <style media="screen">
+      @import url('https://fonts.googleapis.com/css?family=Lora');
+      body{
+        font-size: 18px;
+        font-family: 'Lora';
+        padding-top: 60px;
+        background-color: #ffffff;
+      }
+      body, html{
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .header{
+        text-align: center;
+        transition-duration: 200ms;
+        position: relative;
+        margin-bottom: 40px;
+      }
+      .header::after{
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: -50px;
+        left: 50%;
+        width: 180px;
+        height: 65px;
+        transform: translateX(-50%);
+        background: url(https://avatanplus.com/files/resources/mid/57a96590b38d21566db4bd5f.png) center no-repeat;
+        background-size: contain;
+      }
+      .header:hover{
+        color: #14129f;
+      }
+      .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+        flex-direction: column;
+        padding-top: 30px;
+      }
+      .about__item{
+        margin-bottom: 20px;
+      }
+      .about__list{
+        margin-bottom: 45px;
+      }
+      .column{
+        height: 100%;
+        width: 20%;
+        background-color: #00802b;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+      }
+      .column__left{
+        left: 0;
+      }
+      .column__right{
+        right: 0;
+      }
+      a{
+        color: blue;
+        transition-duration: 200ms;
+        text-decoration: none;
+      }
+      a:hover{
+        color: red;
+      text-decoration: underline;
+      }
+     
+     .my__image{
+      width:60%;
+     }
+     
+      </style>
     </head>
     <body> 
       <left><h1>SHIKOV ARTEM</h1></left>
